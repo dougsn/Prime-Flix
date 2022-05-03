@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .meus-filmes h1 {
@@ -23,7 +22,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 12px;
+  background: #333;
+  border-radius: 8px;
   margin-bottom: 14px;
+  color: #fff;
 }
 
 .meus-filmes div {
@@ -33,7 +36,16 @@
 }
 
 .meus-filmes div a {
-    text-decoration: none;
-    color: #116feb;
-    margin-right: 14px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 14px;
+}
+
+.meus-filmes button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #444;
+  color: #fff;
+  cursor: pointer;
 }
